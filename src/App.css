@@ -1,74 +1,15 @@
-.App {
-  text-align: left;
-  min-height: 100vh;
+.cards-container {
   display: flex;
-  flex-direction: column;
-}
-
-header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-
-header h1 {
-  margin: 0;
-  padding: 0 0 20px 0;
-}
-
-nav {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-nav a:hover {
-  text-decoration: underline;
+  padding: 20px;
 }
 
 section {
-  padding: 40px;
+  margin: 40px 0;
 }
 
-#about {
-  background-color: #f8f8f8;
-}
-
-.services {
-  background-color: #e0e0e0;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 10px 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-footer {
-  background-color: #4CAF50;
-  color: white;
+h1, h2 {
   text-align: center;
-  padding: 20px;
-  margin-top: auto;
-}
-
-/* Make the layout responsive */
-@media (max-width: 768px) {
-  section {
-    padding: 20px;
-  }
 }
